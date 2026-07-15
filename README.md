@@ -1,7 +1,7 @@
-✈️ TripMate AI — A Multi-Agent Travel Planner with LangGraph
+# ✈️ TripMate AI — A Multi-Agent Travel Planner with LangGraph
 An open-source AI travel planner that turns a natural-language trip request into a practical travel plan with flight suggestions, hotel ideas, and a day-by-day itinerary. The project uses a multi-agent workflow built with LangGraph, LangChain, and FastAPI.
 
-Why this project?
+# Why this project?
 Planning a trip usually means jumping between multiple websites, tools, and spreadsheets. This project brings that flow into one experience by combining:
 
 a flight-search agent,
@@ -10,7 +10,7 @@ an itinerary-planning agent, and
 a final response agent,
 all coordinated through a LangGraph workflow.
 
-Features
+# Features
 ✈️ Flight research using AviationStack
 🏨 Hotel suggestions using Tavily search
 🧠 Multi-agent orchestration with LangGraph
@@ -18,7 +18,8 @@ Features
 🌐 FastAPI backend with a simple web interface
 💾 Conversation state persistence using PostgreSQL
 ⚡ LLM-powered responses with Groq
-Tech Stack
+
+# Tech Stack
 Python 3.10+
 FastAPI
 Jinja2 + HTML/CSS/JavaScript frontend
@@ -28,7 +29,8 @@ Groq LLMs
 PostgreSQL
 Tavily API
 AviationStack API
-Project Structure
+
+# Project Structure
 .
 ├── app.py                # FastAPI app entry point
 ├── backend.py            # LangGraph travel workflow
@@ -46,7 +48,8 @@ Groq
 Tavily
 AviationStack
 Environment Variables
-Create a .env file in the project root with the following variables:
+
+# Create a .env file in the project root with the following variables:
 
 DATABASE_URL=postgresql://user:password@localhost:5432/travel_db
 GROQ_API_KEY=your_groq_api_key
